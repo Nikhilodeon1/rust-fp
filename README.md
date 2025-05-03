@@ -27,7 +27,7 @@ Desktop Environment | Status      | Comments
 --------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 KDE Plasma          | Working     | Works by replacing libfprint PAM module with rust-fp PAM module
 GNOME               | Not working | Just replacing libfprint PAM module with rust-fp PAM module doesn't work. See https://github.com/ChocolateLoverRaj/rust-fp/issues/3
-COSMIC              | Planned     | Since COSMIC is written in Rust 🦀, it shouldn't be too hard to add nice support for rust-fp unlock. Maybe even skip PAM entirely and directly add rust-fp integration to COSMIC. Once COSMIC is officially released and I switch to COSMIC, I'll work on this.
+COSMIC              | Planned     | Since COSMIC is written in Rust, it shouldn't be too hard to add nice support for rust-fp unlock. Maybe even skip PAM entirely and directly add rust-fp integration to COSMIC. Once COSMIC is officially released and I switch to COSMIC, I'll work on this.
 
 If you get this working with another DE, create a PR adding it to the table.
 
@@ -53,7 +53,7 @@ rust-fp.nixosModules.default
 git clone https://github.com/ChocolateLoverRaj/rust-fp
 ```
 
-#### Install [Rust 🦀](https://www.rust-lang.org/)
+#### Install [Rust](https://www.rust-lang.org/install)
 
 #### Install the build dependency package
 ##### With Nix
