@@ -1,5 +1,6 @@
 # `rust-fp`
 A better fingerprint library than `libfprint`
+Made by Nikhil Tamvada and Rajas Pranjape 🚀
 
 ## Why
 - `libfprint` does not support Chromebook fingerprint readers
